@@ -32,6 +32,7 @@ module.exports = function () {
         include: '../app',
         out: 'app.js',
         build: true,
+        optimize: 'none',
         preserveLicenseComments: true
       },
       dev: {
